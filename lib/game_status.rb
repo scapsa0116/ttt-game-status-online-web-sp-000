@@ -12,9 +12,7 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [6,4,2]
 ]
-if board[top_row_win[0]] == "X" && board[top_row_win[1]] == "X" && board[top_row_win[2]] == "X"
-  "X won in the top row"
-end
+
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
